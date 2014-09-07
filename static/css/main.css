@@ -1,0 +1,184 @@
+/* color pallet
+--------------------------------------------------
+http://colllor.com/9ebdfa
+*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* fix scrolling with fixed nav bar
+--------------------------------------------------
+github.com/twbs/bootstrap/issues/1768 by mnot
+http://nicolasgallagher.com/jump-links-and-viewport-positioning/demo/#method-C
+http://css-tricks.com/hash-tag-links-padding/
+*/
+.container-fluid, .carousel {
+    border-top: 50px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+/* featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings
+/* http://www.impressivewebs.com/centered-heading-horizontal-line/#comment-34913 */
+.featurette-title {
+  font-weight: 100;
+  letter-spacing: -1px;
+  overflow: hidden;
+  text-align: center;
+}
+.featurette-title:before,
+.featurette-title:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.featurette-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.featurette-title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* navbar
+------------------------- */
+
+.nav li a {
+  color: white;
+  font-co
+}
+
+/* intro carousel
+------------------------- */
+
+.carousel-inner div:nth-child(1) {
+  background-image: url('../img/backgrounds/squared_metal.png');
+}
+.carousel-inner div:nth-child(2) {
+  background-image: url('../img/backgrounds/ricepaper2.png');
+}
+.carousel-inner div:nth-child(3) {
+  background-image: url('../img/backgrounds/squared_metal.png');
+}
+.carousel-inner div:nth-child(4) {
+  background-image: url('../img/backgrounds/ricepaper2.png');
+}
+.carousel-inner div {
+  background-repeat: repeat;
+}
+.carousel-control {
+  text-shadow: 0 3px 3px black;
+}
+.carousel-indicators li {
+  background-color: grey;
+}
+.carousel-indicators {
+  bottom: -10px;
+}
+.carousel-indicators .active {
+  background-color: #2BDE73;
+}
+
+/* catalog
+------------------------- */
+
+#catalog {
+  background-color: #D8E4FD;
+}
+
+/* story
+------------------------- */
+
+#story {
+  background-color: darkgrey;
+}
+#story img {
+  float: right;
+  max-width: 65%;
+  margin: 0 0 10px 10px;
+}
+#story {
+  color: white;
+}
+
+/* comparison table
+------------------------- */
+
+#comp-table th:nth-child(2) {
+  text-align: right;
+}
+#comp-table td {
+  vertical-align: middle;
+}
+#comp-table tr td:nth-child(1) {
+  font-weight: bold;
+}
+#comp-table tr td:nth-child(2) {
+  text-align: right;
+}
+#xcomparison-table {
+  background-image: url('../img/backgrounds/squared_metal.png');
+  background-repeat: repeat;
+}
+/* word-wrap: break-word; for last row and tooltips?
+
+/* gallery
+------------------------- */
+
+/* really like this for future ...
+http://blueimp.github.io/Bootstrap-Image-Gallery/
+*/
+#gallery {
+  background-image: url('../img/backgrounds/ricepaper2.png');
+  background-repeat: repeat;
+}
+.thumbnail {text-align: center;}
+
+/* faq's
+------------------------- */
+
+#faqs dd {
+  padding: 3px 0 10px;
+}
+#faqs {
+  background-image: url('../img/backgrounds/squared_metal.png');
+  background-repeat: repeat;
+}
+
+/* videos
+------------------------- */
+
+#videos {
+  background-image: url('../img/backgrounds/ricepaper2.png');
+  background-repeat: repeat;
+}
+
+/* about
+------------------------- */
+
+#about {
+  background-image: url('../img/backgrounds/squared_metal.png');
+  background-repeat: repeat;
+  /*background-color: darkgrey;*/
+  text-align: center;
+}
+.twitter-wrapper
+{
+  text-align:center;
+}

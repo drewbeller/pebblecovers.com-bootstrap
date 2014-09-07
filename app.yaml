@@ -1,0 +1,21 @@
+application: copper-cider-631
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  script: main.application
+
+- url: /favicon.png
+  static_files: static/favicon.png
+  upload: static/favicon.png
+
+- url: /2/(.*)
+  static_files: static2/\1
+  upload: static2/(.*)
+
+- url: /(.*)
+  static_files: static/\1
+  upload: static/(.*)
